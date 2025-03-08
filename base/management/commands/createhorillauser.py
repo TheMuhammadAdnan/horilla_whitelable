@@ -12,7 +12,7 @@ from employee.models import Employee
 
 class Command(BaseCommand):
     """
-    Horilla management command to create a new user and associated employee.
+   Team Connectmanagement command to create a new user and associated employee.
     """
 
     help = "Creates a new user"

@@ -772,7 +772,7 @@ class FeedbackForm(ModelForm):
 
         super().__init__(*args, **kwargs)
 
-        # Horilla multi select filter for employee
+        #Team Connectmulti select filter for employee
         self.fields["subordinate_id"] = HorillaMultiSelectField(
             queryset=Employee.objects.all(),
             widget=HorillaMultiSelectWidget(

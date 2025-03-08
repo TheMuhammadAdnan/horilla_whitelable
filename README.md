@@ -148,9 +148,9 @@ Horilla can be installed on your system by following the steps below. Ensure you
 
 ---
 
-## **Install Horilla**
+## **Install Team Connect**
 
-Follow the steps below to install **Horilla** on your system. Horilla is compatible with **Ubuntu**, **Windows**, and **macOS**.
+Follow the steps below to install **Horilla** on your system.Team Connectis compatible with **Ubuntu**, **Windows**, and **macOS**.
 
 ---
 
@@ -292,19 +292,19 @@ python manage.py runserver
 
 ---
 
-### **Accessing Horilla**
+### **Accessing Team Connect**
 
-If everything is configured correctly, you should be able to access your Horilla app at **http://localhost:8000**.
-![Initialize Database in Horilla HRMS](https://www.horilla.com/wp-content/uploads/2024/12/how-to-initialize-the-database-in-horilla-hrms-step-by-step-1-1024x576.png)
+If everything is configured correctly, you should be able to access yourTeam Connectapp at **http://localhost:8000**.
+![Initialize Database inTeam ConnectHRMS](https://www.horilla.com/wp-content/uploads/2024/12/how-to-initialize-the-database-in-horilla-hrms-step-by-step-1-1024x576.png)
 
 
 #### **Initial Setup**
 From the login page, you will have two options:
-1. **Initialize Database**: Use this option to initialize the Horilla database by creating a super admin, headquarter company, department, and job position. Authenticate using the `DB_INIT_PASSWORD` specified in the `.env` file.
+1. **Initialize Database**: Use this option to initialize theTeam Connectdatabase by creating a super admin, headquarter company, department, and job position. Authenticate using the `DB_INIT_PASSWORD` specified in the `.env` file.
 2. **Load Demo Data**: Use this option if you want to work with demo data. Authenticate using the `DB_INIT_PASSWORD` specified in the `.env` file.
 
 #### **Running on a Custom Port**
-If you wish to run the Horilla application on a different port, specify the port number after the `runserver` command. For example:
+If you wish to run theTeam Connectapplication on a different port, specify the port number after the `runserver` command. For example:
 ```bash
 python3 manage.py runserver 8080  # For Ubuntu/macOS
 python manage.py runserver 8080   # For Windows
@@ -381,4 +381,4 @@ python manage.py runserver 8080   # For Windows
 
 ---
 
-This README provides a comprehensive guide to installing and setting up Horilla on various platforms. If you encounter any issues, feel free to reach out to the Horilla community for support. Happy coding! 🚀
+This README provides a comprehensive guide to installing and setting upTeam Connecton various platforms. If you encounter any issues, feel free to reach out to theTeam Connectcommunity for support. Happy coding! 🚀

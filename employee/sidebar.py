@@ -1,7 +1,7 @@
 """
 employee/sidebar.py
 
-To set Horilla sidebar for employee
+To setTeam Connectsidebar for employee
 """
 
 from django.urls import reverse

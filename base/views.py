@@ -623,7 +623,7 @@ def reset_send_success(request):
 
 class HorillaPasswordResetView(PasswordResetView):
     """
-    Horilla View for Reset Password
+   Team ConnectView for Reset Password
     """
 
     template_name = "forgot_password.html"
@@ -669,7 +669,7 @@ class HorillaPasswordResetView(PasswordResetView):
 
 class EmployeePasswordResetView(PasswordResetView):
     """
-    Horilla View for Employee Reset Password
+   Team ConnectView for Employee Reset Password
     """
 
     template_name = "forgot_password.html"
@@ -1388,7 +1388,7 @@ def mail_server_test_email(request):
     instance_id = request.GET.get("instance_id")
     white_labelling = getattr(horilla_apps, "WHITE_LABELLING", False)
     image_path = path.join(settings.STATIC_ROOT, "images/ui/horilla-logo.png")
-    company_name = "Horilla"
+    company_name = "Team Connect"
 
     if white_labelling:
         hq = Company.objects.filter(hq=True).last()
@@ -1410,7 +1410,7 @@ def mail_server_test_email(request):
         form = DynamicMailTestForm(request.POST)
         if form.is_valid():
             email_to = form.cleaned_data["to_email"]
-            subject = _("Test mail from Horilla")
+            subject = _("Test mail from Team Connect")
 
             # HTML content
             html_content = f"""

@@ -12837,7 +12837,7 @@ msgid "{} not found."
 msgstr ""
 
 #: .\base\views.py:1419
-msgid "Test mail from Horilla"
+msgid "Test mail from Team Connect"
 msgstr ""
 
 #: .\base\views.py:1476
@@ -26672,7 +26672,7 @@ msgstr ""
 
 #: .\templates\initialize_database\horilla_user.html:99
 msgid ""
-"Authenticate with your password to initialize the Horilla HRMS database."
+"Authenticate with your password to initialize theTeam ConnectHRMS database."
 msgstr ""
 
 #: .\templates\initialize_database\horilla_user_signup.html:28
@@ -26680,7 +26680,7 @@ msgid "Sign Up"
 msgstr ""
 
 #: .\templates\initialize_database\horilla_user_signup.html:31
-msgid "Please sign up to access the Horilla HRMS."
+msgid "Please sign up to access theTeam ConnectHRMS."
 msgstr ""
 
 #: .\templates\initialize_database\horilla_user_signup.html:118

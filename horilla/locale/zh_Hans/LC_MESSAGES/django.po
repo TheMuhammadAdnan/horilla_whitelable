@@ -627,7 +627,7 @@ msgstr "預設可訪問性"
 
 #: accessibility/templates/accessibility/accessibility.html:11
 msgid "Limit default view access to horilla feature"
-msgstr "限制預設檢視存取至 Horilla 功能"
+msgstr "限制預設檢視存取至Team Connect功能"
 
 #: accessibility/templates/accessibility/accessibility.html:31
 #: asset/templates/asset/asset_list.html:31
@@ -12295,8 +12295,8 @@ msgid "{} not found."
 msgstr "未找到 {}。"
 
 #: base/views.py:1413
-msgid "Test mail from Horilla"
-msgstr "来自 Horilla 的测试邮件"
+msgid "Test mail from Team Connect"
+msgstr "来自Team Connect的测试邮件"
 
 #: base/views.py:1470
 msgid "Something went wrong :"
@@ -24808,16 +24808,16 @@ msgstr "返回首页"
 
 #: templates/initialize_database/horilla_user.html:99
 msgid ""
-"Authenticate with your password to initialize the Horilla HRMS database."
-msgstr "使用您的密码进行身份验证以初始化 Horilla HRMS 数据库。"
+"Authenticate with your password to initialize theTeam ConnectHRMS database."
+msgstr "使用您的密码进行身份验证以初始化Team ConnectHRMS 数据库。"
 
 #: templates/initialize_database/horilla_user_signup.html:28
 msgid "Sign Up"
 msgstr "注册"
 
 #: templates/initialize_database/horilla_user_signup.html:31
-msgid "Please sign up to access the Horilla HRMS."
-msgstr "请注册以访问 Horilla HRMS。"
+msgid "Please sign up to access the Team Connect HRMS."
+msgstr "请注册以访问Team ConnectHRMS。"
 
 #: templates/initialize_database/horilla_user_signup.html:118
 msgid "Secure Sign-up"

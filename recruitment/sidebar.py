@@ -1,7 +1,7 @@
 """
 recruitment/sidebar.py
 
-To set Horilla sidebar for onboarding
+To setTeam Connectsidebar for onboarding
 """
 
 from django.contrib.auth.context_processors import PermWrapper
